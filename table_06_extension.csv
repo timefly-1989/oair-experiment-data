@@ -1,0 +1,5 @@
+Model,Scale aug.,Surface CD,Boundary CD,Composite mean,Composite seed SD
+Initializer,—,70.26,129.57,115.61,
+OAIR,Off,27.37,81.15,55.77,1.23
+DDL,Off,27.40,81.97,56.09,1.20
+Transolver++,Off,30.59,84.93,60.31,1.86

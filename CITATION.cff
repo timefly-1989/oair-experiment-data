@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: Please cite this dataset if you use the archived evaluation results.
+title: OAIR experiment data for Image-Anchored Refinement of Open Garment Meshes
+type: dataset
+authors:
+  - family-names: Liu
+    given-names: Shuai
+  - family-names: Li
+    given-names: Hui
+  - family-names: Qian
+    given-names: Jin
+version: "1.0"
+date-released: "2026-11-24"
+repository-code: https://github.com/timefly-1989/oair-experiment-data

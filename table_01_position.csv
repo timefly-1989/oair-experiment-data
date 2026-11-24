@@ -1,0 +1,8 @@
+Method,Input and output,Core mechanism,Relation to this study
+GeoCoHuman,Single image to clothed human,Body and clothed-human point-cloud priors,Context for body-conditioned geometry
+ComplexCloth and GarmentRec,Single image to standalone garment,Open-mesh extraction or UV-domain displacement,Closest context for single-view open garment geometry
+ReWeaver,Sparse views to garment and sewing patterns,"Recovers seams, panels and connectivity",Context for the supplied-topology task
+D³-Human and NGD,Monocular video to dynamic clothing,Body–garment separation or gradient deformation,Temporal evidence for garment geometry
+Transolver++,Discretized geometry to a PDE solution,Adaptive slice attention,Adapted attention operator in the matched experiment
+DDL,Layer features to updated state,Gated directional delta update,Adapted baseline with state-derived write values
+OAIR,Single image and supplied mesh to refined garment,Opening-specific geodesic slots and image-anchored write values,Paired initializer-relative refinement across synthetic and real domains

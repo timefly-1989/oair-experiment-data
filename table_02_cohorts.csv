@@ -1,0 +1,5 @@
+Cohort,Evaluation setting,Test observations and groups,Geometry reference
+SYN-600,Primary within-domain evaluation at a matched budget,"68 garments, 67 bodies",Complete synthetic surfaces
+SYN-30,"Opening placement, ablations, and sensitivity controls","193 garments, 188 body groups",Complete synthetic surfaces
+CloSe,Rendered real-scan adaptation,"144 patch views, 24 scans, 12 prefix groups",Observed outer garment patches
+CAP-20,Captured multi-subject adaptation,"675 eligible patches, 20 unseen subjects",Observed garment patches

@@ -1,0 +1,7 @@
+Domain,Train,Validation,Test,Test grouping
+"SYN-30, full split","1,777",170,193,Audited body IDs
+"SYN-600, nested subset",600,170,68,67 audited body IDs
+CloSe render/patch examples,936,120,144,12 prefix groups
+Captured pilot patches,398,116,111,2 subject IDs
+"CAP-20, supplied mask",same 398,same 116,675,20 subject IDs
+"CAP-20, predicted input",same 398,same 116,670/675,same 20 IDs

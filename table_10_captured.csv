@@ -1,0 +1,8 @@
+Model,"Pilot, supplied mask mean","Pilot, supplied mask seed SD","CAP-20, supplied mask mean","CAP-20, supplied mask seed SD","CAP-20, predicted input mean","CAP-20, predicted input seed SD"
+Initializer,61.73,,57.50,,61.71,
+OAIR,37.18,2.71,34.08,1.25,37.88,1.16
+OAIR-DN,39.39,1.50,39.05,2.28,43.38,2.07
+DDL,37.05,0.28,34.72,1.14,38.76,1.44
+DDL-DN,37.86,2.17,34.72,0.43,38.58,0.21
+Transolver++,34.74,1.01,33.43,1.17,36.45,1.10
+Transolver++-DN,36.04,1.35,34.50,0.34,38.60,0.50

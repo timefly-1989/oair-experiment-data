@@ -1,0 +1,7 @@
+Variant,Mean opening,Worst opening,Shortest opening
+Shared initializer,133.87,197.43,130.62
+DDL,108.90,158.78,109.98
+Geo-DDL,109.17,158.80,109.52
+State-value,108.15,155.08,106.87
+OAIR,107.73,159.27,107.16
+OAIR-R,108.61,158.79,108.87

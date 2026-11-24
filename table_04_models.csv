@@ -1,0 +1,7 @@
+Model,Communication/update,Coordinates/loss,Refiner params (k)
+OAIR,Opening-aware / image value,raw / metric,190.69
+OAIR-DN,Opening-aware / image value,body-scale / dimensionless,190.69
+DDL,Adaptive slices / scalar DDL,raw / metric,172.81
+DDL-DN,Adaptive slices / scalar DDL,body-scale / dimensionless,172.81
+Transolver++,Transolver++ attention / residual,raw / metric,157.34
+Transolver++-DN,Transolver++ attention / residual,body-scale / dimensionless,157.34

@@ -1,0 +1,7 @@
+Condition,OAIR mean,OAIR seed SD,OAIR-DN mean,OAIR-DN seed SD,DDL mean,DDL seed SD,Transolver++ mean,Transolver++ seed SD
+clean,34.08,1.25,39.05,2.28,34.72,1.14,33.43,1.17
+body_noise012,38.53,1.43,44.12,2.82,38.84,1.35,37.38,1.57
+exposure050,35.41,1.11,39.78,2.91,35.09,1.60,34.83,2.05
+jpeg25,34.06,1.24,39.12,2.35,34.69,1.13,33.40,1.15
+blur2,33.91,1.25,38.22,1.81,34.64,1.03,33.11,1.17
+occlusion,34.18,1.19,38.96,2.81,34.10,1.49,33.48,1.15

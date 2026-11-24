@@ -1,0 +1,6 @@
+Stage,Runs and epochs,Optimization,Surface samples and validation
+SYN-600,"30 runs, 8 epochs each","4,800 updates per run on the same 600 examples","256 train, 1,536 validation; 170 validation cases every two epochs"
+SYN-30,"14 configurations, 3 seeds, 30 epochs each","AdamW lr 1e-3, weight decay 1e-4, gradient clip 1.0 (12 configs on 1,777 examples; 2 on nested 600)","512 train, 3,000 validation"
+CloSe,"11 matched configurations, 3 seeds (1104–1106)","15 synthetic epochs on the shared 600 examples, then 10 scan-mixed epochs",Synthetic replay paired 1:1 with real scan updates
+Captured pilot,"6 structures, 3 seeds, 8 fine-tuning epochs",Continued from synthetic checkpoints,116 validation patches
+CAP-20,24 further epochs per pilot checkpoint,"AdamW lr 1e-4, weight decay 1e-4",384 train; validation every four epochs

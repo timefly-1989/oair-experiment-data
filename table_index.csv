@@ -1,0 +1,15 @@
+table,latex_label,file,caption,rows
+1,tab:position,table_01_position.csv,Representative reconstruction methods and update mechanisms in relation to OAIR.,7
+2,tab:cohorts,table_02_cohorts.csv,Evaluation cohorts and geometric references used for paired initializer-relative evaluation.,4
+3,tab:data,table_03_data.csv,Prepared examples by split. The final column identifies the test grouping used for each split.,6
+4,tab:models,table_04_models.csv,Model definitions and trainable parameter counts. Counts include the garment image encoder and exclude frozen NLF and RGB parsing.,6
+5,tab:training,table_05_training.csv,Training budgets and stage-specific settings. Surface samples are listed per training or validation case.,5
+6,tab:extension,table_06_extension.csv,"Primary matched-budget synthetic holdout (SYN-600, 68 garments across 67 audited body groups). Means average body groups and five training seeds (2110–2114); ± reports composite seed SD. Lower values denote higher accuracy (mm).",4
+7,tab:opening_integrated,table_07_opening_integrated.csv,"Opening placement accuracy on the expanded SYN-30 holdout (mm), reported as case-weighted means across 193 garments and three seeds using explicit template loop correspondences under the scale-augmented recipe.",6
+8,tab:synthetic,table_08_synthetic.csv,"Complete-surface ablation and matched-budget scaling on SYN-30 (mm, case-weighted mean ± SD across 193 garments and three seeds). Standard rows enable metric-scale augmentation U[0.8,1.2]; the clean-scale row (w/o scale aug.) disables it to evaluate in-domain precision. Nested 600-example (-600) and matched 18k-update (-18k) rows verify budget scaling.",17
+9,tab:scan,table_09_scan.csv,"CloSe rendered real-scan coverage error (nominal mm, three-seed mean ± SD over 144 test views across 24 scans). The shared CloSe initializer baseline is 55.03 mm (Figure 5).",11
+10,tab:captured,table_10_captured.csv,"Captured-photograph coverage error on 4D-DRESS (nominal mm, equal-subject mean ± training-seed SD). Pilot: 2 subjects / 111 patches; CAP-20 supplied mask: 20 unseen subjects / 675 patches; CAP-20 predicted input: 670 validly prepared patches.",7
+11,tab:quality,table_11_quality.csv,Mesh geometric regularity diagnostics on CAP-20 across all three seeds. Reversal measures face-orientation change relative to initialization; collapse measures degenerate faces; log stretch p95 is the mean per-mesh 95th-percentile log edge-length change.,12
+12,tab:synthetic_sensitivity,table_12_synthetic_sensitivity.csv,Surface CD sensitivity (mm) under geometric and imaging perturbations on SYN-30 (three-seed means).,8
+13,tab:synthetic_tracks,table_13_synthetic_tracks.csv,"Additional synthetic observation tracks on SYN-30 (mm), spanning viewpoint, resolution, mask, focal-length, reinitialization, and cross-style transfer variations.",11
+14,tab:robustness,table_14_robustness.csv,"Captured-photograph coverage under visual and body-prior corruptions on CAP-20 supplied masks (nominal mm, three-seed mean ± SD).",6
