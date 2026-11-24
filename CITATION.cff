@@ -9,6 +9,6 @@ authors:
     given-names: Hui
   - family-names: Qian
     given-names: Jin
-version: "1.0"
+version: "1.1"
 date-released: "2026-11-24"
 repository-code: https://github.com/timefly-1989/oair-experiment-data

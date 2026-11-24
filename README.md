@@ -6,7 +6,7 @@ This repository accompanies **Image-Anchored Refinement of Open Garment Meshes: 
 
 | File | Contents |
 | --- | --- |
-| [table_index.csv](table_index.csv) | Index of the 14 manuscript tables, with captions and LaTeX labels. Each linked filename has one CSV with the values as printed. Where reported, seed SD is in a separate column. |
+| [table_index.csv](table_index.csv) | Index of the 14 manuscript tables, with captions and LaTeX labels. Each indexed filename has one CSV with the values as printed. Where reported, seed SD is in a separate column. |
 | [syn600_case_metrics.csv](syn600_case_metrics.csv) | 6,324 model, recipe, seed and condition rows from 68 garments across 67 synthetic body groups. Distances are in meters. Seed 0 identifies shared initializer rows. |
 | [syn600_paired_contrasts.csv](syn600_paired_contrasts.csv) | DDL and Transolver++ minus OAIR composite error for the validation-selected recipe, with paired seed differences and Bonferroni-adjusted 97.5% intervals, in mm. |
 | [syn30_component_metrics.csv](syn30_component_metrics.csv) | 3,667 case-level rows across 193 garments and 188 synthetic body groups for the initializer and six scale-augmented component variants. Distances are in mm. |
@@ -17,6 +17,10 @@ This repository accompanies **Image-Anchored Refinement of Open Garment Meshes: 
 
 SYN-600 averages cases within a body, then equally across the 67 body groups and five training seeds. The synthetic composite error is surface CD + 0.35 × boundary CD. SYN-30 Tables 7 and 8 use case-weighted means. The numeric portions of Tables 9, 12 and 13 are manuscript exports at their reported precision. The SYN-30 per-case file supports the mean and worst opening columns and a subset of the Table 8 composite results.
 
+## Experimental code and run records
+
+[Experiments](experiments/README.md) links to the archived model, data preparation, training and evaluation code for SYN-600, SYN-30, CloSe and CAP-20. [Run records](records/) give 48 training configurations, their validation histories, and the SYN-600 test membership. The experiment guide lists the command interfaces, dataset providers and additional files needed to run the original GPU pipeline.
+
 ## Verify the results
 
 From the repository directory, use Python 3.13 with NumPy.
@@ -24,9 +28,12 @@ From the repository directory, use Python 3.13 with NumPy.
 ```sh
 python -m pip install -r requirements.txt
 python reproduce.py
+python scripts/check_experiment_records.py
 ```
 
 The script verifies file hashes and table record counts, regenerates Table 6 and the paired SYN-600 bootstrap statistics using 6,000 crossed body/seed draws with RNG seed 1110, verifies the supported SYN-30 component summaries, and checks the 4D-DRESS table entries against the released aggregates. This is a CPU statistical check from saved measurements. Full inference requires the original datasets, pretrained assets and refiner weights.
+
+The record check recomputes SYN-600 recipe selection from validation scores and verifies the public source hashes. With PyTorch installed, `python scripts/check_refiner_components.py` also checks the archived fixed-anchor write and ray projection on CPU.
 
 ## Dataset access and citation
 

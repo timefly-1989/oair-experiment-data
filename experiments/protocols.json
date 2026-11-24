@@ -1,0 +1,401 @@
+{
+  "SYN-600": {
+    "version": "extension_20261110",
+    "frozen_at": "2026-11-10T17:42:46.435568+08:00",
+    "jobs": [
+      {
+        "id": "OAIR_no_scale_s2110",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "no_scale",
+        "seed": 2110,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_no_scale_s2110",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "no_scale",
+        "seed": 2110,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_no_scale_s2110",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "no_scale",
+        "seed": 2110,
+        "epochs": 8
+      },
+      {
+        "id": "OAIR_scale_aug_s2110",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "scale_aug",
+        "seed": 2110,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_scale_aug_s2110",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "scale_aug",
+        "seed": 2110,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_scale_aug_s2110",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "scale_aug",
+        "seed": 2110,
+        "epochs": 8
+      },
+      {
+        "id": "OAIR_no_scale_s2111",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "no_scale",
+        "seed": 2111,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_no_scale_s2111",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "no_scale",
+        "seed": 2111,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_no_scale_s2111",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "no_scale",
+        "seed": 2111,
+        "epochs": 8
+      },
+      {
+        "id": "OAIR_scale_aug_s2111",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "scale_aug",
+        "seed": 2111,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_scale_aug_s2111",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "scale_aug",
+        "seed": 2111,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_scale_aug_s2111",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "scale_aug",
+        "seed": 2111,
+        "epochs": 8
+      },
+      {
+        "id": "OAIR_no_scale_s2112",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "no_scale",
+        "seed": 2112,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_no_scale_s2112",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "no_scale",
+        "seed": 2112,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_no_scale_s2112",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "no_scale",
+        "seed": 2112,
+        "epochs": 8
+      },
+      {
+        "id": "OAIR_scale_aug_s2112",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "scale_aug",
+        "seed": 2112,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_scale_aug_s2112",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "scale_aug",
+        "seed": 2112,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_scale_aug_s2112",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "scale_aug",
+        "seed": 2112,
+        "epochs": 8
+      },
+      {
+        "id": "OAIR_no_scale_s2113",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "no_scale",
+        "seed": 2113,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_no_scale_s2113",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "no_scale",
+        "seed": 2113,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_no_scale_s2113",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "no_scale",
+        "seed": 2113,
+        "epochs": 8
+      },
+      {
+        "id": "OAIR_scale_aug_s2113",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "scale_aug",
+        "seed": 2113,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_scale_aug_s2113",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "scale_aug",
+        "seed": 2113,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_scale_aug_s2113",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "scale_aug",
+        "seed": 2113,
+        "epochs": 8
+      },
+      {
+        "id": "OAIR_no_scale_s2114",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "no_scale",
+        "seed": 2114,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_no_scale_s2114",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "no_scale",
+        "seed": 2114,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_no_scale_s2114",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "no_scale",
+        "seed": 2114,
+        "epochs": 8
+      },
+      {
+        "id": "OAIR_scale_aug_s2114",
+        "model": "OAIR",
+        "architecture": "evidence_delta",
+        "recipe": "scale_aug",
+        "seed": 2114,
+        "epochs": 8
+      },
+      {
+        "id": "DDL_scale_aug_s2114",
+        "model": "DDL",
+        "architecture": "ddl",
+        "recipe": "scale_aug",
+        "seed": 2114,
+        "epochs": 8
+      },
+      {
+        "id": "TransolverPP_scale_aug_s2114",
+        "model": "TransolverPP",
+        "architecture": "transolver_plus",
+        "recipe": "scale_aug",
+        "seed": 2114,
+        "epochs": 8
+      }
+    ],
+    "training_examples": 600,
+    "validation_examples": 170,
+    "train_sha256": "dce3a42fb79a64814e964e3f4a0b68ae665aaf1d3eadb38fb79377a21d3573e8",
+    "val_sha256": "ea2adfad08b34b615486b47d8b0fcb6de4e05aaf424fb3c0a02a99cd7d0ba7fc",
+    "points": 256,
+    "validation_points": 1536,
+    "validation_every": 2,
+    "learning_rate": 0.001,
+    "width": 64,
+    "depth": 4,
+    "recipe_selection": "minimum mean validation score across all five seeds, separately for each operator; test scores never select recipe",
+    "primary_metric": "unfitted complete-surface CD + 0.35 length-sampled boundary CD in meters",
+    "primary_contrasts": [
+      "DDL_selected_recipe minus OAIR_selected_recipe",
+      "TransolverPP_selected_recipe minus OAIR_selected_recipe"
+    ],
+    "statistics": "paired body-and-seed bootstrap; nominal 95% and familywise 97.5% intervals for two primary contrasts; report all seed means and harm rates",
+    "test_lock": {
+      "locked_at": "2026-11-10T19:17:21.912680+08:00",
+      "protocol_sha256": "28a2de95d112bc4050792abac1e59beda76d608dbde661ac8151796c02d0efc5",
+      "manifest_sha256": "08c49936a72273e24fc1e615846e01ae1d385d8e4f819bb54e35f79e02a8b3c0",
+      "evaluator_sha256": "a48f6c758503b48f289af900cecce82f5ea63a0c63d84a3a0c59dde05df6e118",
+      "selected_recipes": {
+        "OAIR": "no_scale",
+        "DDL": "no_scale",
+        "TransolverPP": "no_scale"
+      },
+      "validation_recipe_scores": {
+        "OAIR": {
+          "no_scale": 0.05185085156165502,
+          "scale_aug": 0.09292701345156222
+        },
+        "DDL": {
+          "no_scale": 0.052225150669760564,
+          "scale_aug": 0.09245970276787001
+        },
+        "TransolverPP": {
+          "no_scale": 0.056144191894461126,
+          "scale_aug": 0.09478507183053914
+        }
+      },
+      "test_used_for_selection": false
+    }
+  },
+  "CAP-20": {
+    "study": "completion_20261108",
+    "frozen_at": "2026-11-08T20:14:48.185450+08:00",
+    "variants": {
+      "N03_full": [
+        "evidence_delta",
+        "body_scale",
+        true
+      ],
+      "A04_raw": [
+        "evidence_delta",
+        "raw",
+        false
+      ],
+      "N06_normalized_DDL": [
+        "ddl",
+        "body_scale",
+        true
+      ],
+      "N07_normalized_Transolver": [
+        "transolver_plus",
+        "body_scale",
+        true
+      ],
+      "B03_raw_DDL": [
+        "ddl",
+        "raw",
+        false
+      ],
+      "B05_raw_Transolver": [
+        "transolver_plus",
+        "raw",
+        false
+      ]
+    },
+    "seeds": [
+      1104,
+      1105,
+      1106
+    ],
+    "train_manifest_sha256": "d9d0570d4312bbc5e6ca680accc520d868d7de54d62d83505664c50a2251e7ce",
+    "val_manifest_sha256": "de2e6c6bdadd87a3b0fbb54f7ca45717b2cf9036725e1edf8f62591b4fd3fc41",
+    "epochs": 24,
+    "learning_rate": 0.0001,
+    "validate_every": 4,
+    "surface_points": 384,
+    "validation_points": 1536,
+    "initialization": "each matching v7 validation-selected best checkpoint; reset AdamW; all variants use identical new budget",
+    "synthetic_replay": "one update per real sample, shared fixed 600-example manifest",
+    "augmentation": [
+      "appearance",
+      "metric_scale",
+      "paired_body_corruption_008"
+    ],
+    "new_captured_input_sampling": {
+      "outfits": [
+        "Inner",
+        "Outer"
+      ],
+      "archive": "lexicographically first verified archive for each outfit",
+      "take": "first complete take encountered in archive; two numeric frames 30 and 90",
+      "camera_ids": [
+        "0004",
+        "0028",
+        "0052",
+        "0076"
+      ],
+      "size": 256
+    },
+    "primary_track": "provided_visible_semantic_mask_and_category_with_camera_calibration",
+    "secondary_track": "known_category_with_RGB_predicted_mask_and_RGB_predicted_person_box; frozen_NLF_rerun; full_reinitialization; no_GT_fallback",
+    "primary_metric": "target-to-prediction coverage of observed semantic outer patches; nominal millimeters from official metric coordinates",
+    "secondary_conditions": [
+      "clean",
+      "body_noise012",
+      "exposure050",
+      "jpeg25",
+      "blur2",
+      "occlusion"
+    ],
+    "corruption_scope": "these six are refiner-only perturbations with frozen caches; the separate predicted-input track reruns RGB parser, person box, NLF and cloth initializer",
+    "initialization_sha256": {
+      "N03_full_s1104": "9b6280af82a906566a964ad541cd50c3a17d033fa9a13462bdd42d3e72597bf4",
+      "N03_full_s1105": "7dc3562788c8e92a69e89e10dd82047a21f2880489466b5e3925d9285b3a8ab8",
+      "N03_full_s1106": "0e9436da23f7ff242e686329debf9b982120bfe03979c2e295c0a3d38028deea",
+      "A04_raw_s1104": "39f1d0eac8c02a2f931f3c0b65f7503f4d161ef6f07968b8421e862b1fbf56a9",
+      "A04_raw_s1105": "7aa5d09852ef6763c9394d47ecbddf86d6a2e1d06d5261f239dea96343d02278",
+      "A04_raw_s1106": "64da449b3e7f1337e0b1b261500a0c391ce3ca92d9651064a5e2098510bbaac4",
+      "N06_normalized_DDL_s1104": "2a150f0f01c35d3b5e0ccc304bcd7ebbd7ffb00002be3ef1d0eb1cad5753186d",
+      "N06_normalized_DDL_s1105": "76ccc675cbfc704bd714821fe1d0e2243ca1a6aa2c65025f7d878d5b67818e5b",
+      "N06_normalized_DDL_s1106": "e1b56e1b5b89a7783f689662362e16a1835576cc3bc7fa6a16cfc15ab5d72dce",
+      "N07_normalized_Transolver_s1104": "35b9b366317b60b7728c33be427d69665294f4598f911d5ec018ed8358511e5e",
+      "N07_normalized_Transolver_s1105": "6b7cf5a22941da7c88926f61ee086581777fc05757e0f30aa42af3de4e543785",
+      "N07_normalized_Transolver_s1106": "73d3df1a63435c74181d24d328fb134618544f5ffad5488eb67b3bfd7c2fbfe2",
+      "B03_raw_DDL_s1104": "0b9728675d5e26f5386db6f2f5ce9c5104d05eac01e4dfbdc831eb6b2be8287d",
+      "B03_raw_DDL_s1105": "8efa7b245739a95df3a35cd8bc7fb6cb57fb2341ada02ee79f4b78a28b83c7c4",
+      "B03_raw_DDL_s1106": "4fb51b6e2760c68ccd5d3eba3a839e7d7500cfbd544a092c31290334de8847cb",
+      "B05_raw_Transolver_s1104": "11d17b41894646d649f289e0862bdcb9adf66c8e01b2e885f523375717de6440",
+      "B05_raw_Transolver_s1105": "5163af81ac832f7fb62246cdab6a92cfa25443702ddb334897b583e3571fe117",
+      "B05_raw_Transolver_s1106": "aa38ab7707afd789f2667e2b033bf24d6384578ac0ce3625a20a7555a039a1c5"
+    },
+    "cohort": {
+      "train_subjects": 8,
+      "validation_subjects": 2,
+      "pilot_test_subjects": 2,
+      "held_out_subjects": 20,
+      "eligible_supplied_mask_patches": 675,
+      "prepared_predicted_input_patches": 670
+    }
+  }
+}
